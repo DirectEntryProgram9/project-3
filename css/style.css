@@ -1,0 +1,14 @@
+@import url(./reset.css);
+@import url(./font.css);
+
+.clear-fix {
+    clear: both;
+}
+.clear-fix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
